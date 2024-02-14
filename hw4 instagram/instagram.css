@@ -1,0 +1,104 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-top: 36px;
+    width: 175px;
+    margin-bottom: 12px;
+
+}
+form{
+    width:350px;
+    height:460px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(219,219,219) ;
+}
+#enter{
+    width: 278px;
+    height: 36px;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+#name,#password{
+    all: unset;
+    width: 258px;
+    height: 36px;
+    margin-top: 24px;
+    border: 1px solid rgb( 219, 219, 219);
+    border-radius: 4px;
+    background: rgb(250, 250, 250);
+    padding:0 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+
+
+
+}
+#password{
+    margin-top: 0;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.facebookIcon{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+
+}
+.facebookIcon img{
+    width: 100%;
+    height: 100%;
+}
+.facebook p{
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.forgotpassword{
+    color: #385185;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.reg{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+
+
+
+}
+.bottom {
+    width: 350px;
+    height: 35px;
+    margin-top: 10px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
